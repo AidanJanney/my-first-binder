@@ -1,0 +1,6 @@
+name: my-first-binder
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
