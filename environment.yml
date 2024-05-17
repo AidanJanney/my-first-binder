@@ -1,4 +1,4 @@
-name: example-environment
+name: my-first-binder
 channels:
   - conda-forge
 dependencies:
