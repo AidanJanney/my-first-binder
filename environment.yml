@@ -1,12 +1,41 @@
 name: my-first-binder
 channels:
-  - conda-forge
+- conda-forge
 dependencies:
-  - python
-  - numpy
-  - pip
-  - pip:
-    - nbgitpuller
-    - sphinx-gallery
-    - pandas
-    - matplotlib
+- altair
+- bokeh
+- bottleneck
+- cartopy
+- cf-units
+- cftime>=1.0.4.2
+- cmaps
+- cmocean
+- dask
+- dask-jobqueue
+- dask-labextension
+- distributed
+- h5py
+- holoviews
+- hvplot
+- intake
+- intake-esm>=2020.8.15
+- ipywidgets
+- jupyterlab
+- matplotlib
+- nbval
+- nc-time-axis
+- netcdf4
+- nodejs
+- numba
+- pandas
+- pip
+- pytest
+- python
+- s3fs
+- scipy
+- tqdm
+- watermark
+- xarray
+- xesmf
+- pip:
+  - pooch
